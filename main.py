@@ -1,4 +1,5 @@
-from functions import *
+# Explicit imports: evita poluir o namespace
+from functions import greetings, register_player, choose_class, battle, clear_screen
 
 
 # 1. Mensagem de boas-vindas
