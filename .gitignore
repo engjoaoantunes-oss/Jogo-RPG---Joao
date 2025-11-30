@@ -1,6 +1,6 @@
-# JetBrains IDE project files: ignore workspace and other user-specific files,
-# but keep shareable settings like code styles and inspection profiles.
-.idea/
+# JetBrains IDE project files: ignore most contents but keep shareable settings
+# (use .idea/* so we can unignore specific subfolders)
+.idea/*
 !.idea/inspectionProfiles/
 !.idea/inspectionProfiles/**
 !.idea/codeStyles/
