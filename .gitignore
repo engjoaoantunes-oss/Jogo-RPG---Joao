@@ -1,4 +1,11 @@
+# JetBrains IDE project files: ignore workspace and other user-specific files,
+# but keep shareable settings like code styles and inspection profiles.
 .idea/
+!.idea/inspectionProfiles/
+!.idea/inspectionProfiles/**
+!.idea/codeStyles/
+!.idea/codeStyles/**
+!.idea/.name
 __pycache__/
 *.pyc
 .venv/
